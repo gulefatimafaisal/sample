@@ -1,0 +1,346 @@
+.studio-retro {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d0efb1;
+    color: #132a13;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #233d4d;
+  }
+  
+  .logo span {
+    color: #fb8500;
+  }
+  
+  .mission {
+    margin-top: 20px;
+  }
+  
+  .mission h2 {
+    font-size: 2rem;
+    color: #283618;
+  }
+  
+  .mission p {
+    color: #6A7C81 ;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .btn{
+    background: #8C4449;
+    color: #fff;
+  }
+  .btn:hover {
+    background: #a95c5e; 
+    transform: scale(1.05); 
+  }
+  
+  .about-emma {
+    text-align: center;
+    background-color: #ffddd2;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .about-emma h2 {
+    font-size: 1.8rem;
+    color: #450920;
+  }
+
+  .about-emma h4 {
+    color: #31572c;
+  }
+  
+  .about-emma p {
+    color: #9c6d6a;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .btn-btn{
+    background-color: #e36414;
+    color: #fff;
+  }
+ .btn-btn:hover{
+    background-color: #f78a1d; 
+    transform: scale(1.1)
+ }
+
+
+ .adventure {
+    text-align: center;
+    background-color: #bbd0ff;
+    padding: 30px;
+  }
+  
+  .adventure h2 {
+    font-size: 1.8rem;
+    color: #004e89;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .option-1 {
+    background-color: #8c5e58;  
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .option-2 {
+    background-color: #006994;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .option-3 {
+    background-color: #ff9f00; 
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .option-4 {
+    background-color: #8b0000; 
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .option-5 {
+    background-color: #2e8b57; 
+    color: #fff; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .option-1:hover {
+    background-color: #704c43; 
+    transform: scale(1.05);
+  }
+  
+  .option-2:hover {
+    background-color: #004f6f; 
+    transform: scale(1.05); 
+  }
+  
+  .option-3:hover {
+    background-color: #e68900; 
+    transform: scale(1.05); /
+  }
+  
+  .option-4:hover {
+    background-color: #6e0000; 
+    transform: scale(1.05); 
+  }
+  
+  .option-5:hover {
+    background-color: #236f44; 
+    transform: scale(1.05); 
+  }
+
+  
+@media (max-width: 480px) {
+    .header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header nav ul li {
+      margin-bottom: 10px;
+    }
+    
+    .logo {
+      font-size: 2rem; 
+    }
+  
+    .mission h2 {
+      font-size: 1.5rem; 
+    }
+  
+    .mission p {
+      font-size: 1rem; 
+    }
+    
+    .btn {
+      width: 100%; 
+      padding: 15px;
+    }
+    
+    .about-emma h2 {
+      font-size: 1.5rem; 
+    }
+    
+    .about-emma h4 {
+      font-size: 1rem; 
+    }
+    
+    .about-emma p {
+      font-size: 0.9rem; 
+    }
+    
+    .adventure h2 {
+      font-size: 1.5rem;
+    }
+  
+    .options {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .option-1, .option-2, .option-3, .option-4, .option-5 {
+      width: 80%; 
+      padding: 15px;
+    }
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .header nav ul {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      font-size: 2.2rem;
+    }
+  
+    .mission h2 {
+      font-size: 1.7rem; 
+    }
+  
+    .mission p {
+      font-size: 1.1rem; 
+    }
+    
+    .btn {
+      width: 100%; 
+      padding: 15px;
+    }
+    
+    .about-emma h2 {
+      font-size: 1.7rem; 
+    }
+    
+    .about-emma h4 {
+      font-size: 1.1rem; 
+    }
+    
+    .about-emma p {
+      font-size: 1rem; 
+    }
+  
+    .adventure h2 {
+      font-size: 1.7rem; 
+    }
+  
+    .options {
+      flex-direction: row; 
+      gap: 10px;
+    }
+  
+    .option-1, .option-2, .option-3, .option-4, .option-5 {
+      width: 40%; 
+      padding: 20px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .header nav ul {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .logo {
+      font-size: 2.5rem; 
+    }
+  
+    .mission h2 {
+      font-size: 2rem; 
+    }
+  
+    .mission p {
+      font-size: 1.2rem; 
+    }
+  
+    .btn {
+      padding: 10px 20px;
+    }
+    
+    .about-emma h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .about-emma h4 {
+      font-size: 1.2rem; 
+    }
+    
+    .about-emma p {
+      font-size: 1.1rem; 
+    }
+  
+    .adventure h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .options {
+      justify-content: center; 
+      gap: 15px;
+    }
+  
+    .option-1, .option-2, .option-3, .option-4, .option-5 {
+      width: 100px; 
+      padding: 20px;
+    }
+  }
+  
